@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "748979490011",
+    "firebase_url": "https://scheduler-627c4.firebaseio.com",
+    "project_id": "scheduler-627c4",
+    "storage_bucket": "scheduler-627c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748979490011:android:ada70cc23b7cfcdff390fe",
+        "android_client_info": {
+          "package_name": "com.im.scheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748979490011-2314p979417o14ft3cjbopb7ep3nf6oo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlB0zHEyiIlTWOnze4eX8cjW4TRKF1-O4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748979490011-2314p979417o14ft3cjbopb7ep3nf6oo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
