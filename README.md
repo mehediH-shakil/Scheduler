@@ -45,15 +45,15 @@ Platform
       
       Android Studio
       
-Language 
+Language: 
       
       JAVA
       
-Framework 
+Framework: 
       
       XML
       
-Database 
+Database: 
       
       Firebase
       
