@@ -1,5 +1,6 @@
 # Scheduler
-Class schedule application is the key to a well-managed, organized classroom. Class schedule permit students
+Scheduler is a class schedule android-based application. Class schedule application is the key to a well-managed, organized classroom. Class schedule permit students
+
 to rapidly achieve everyday responsibilities that are obligatory of together the teacher and students. Here
 also have a class cancel option for teacher if they want and they can confirm that the class has been canceled
 by notifying each student of the course. Also have option for identify overlap class, add extra class option,
