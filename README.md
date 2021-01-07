@@ -1,14 +1,9 @@
 # Scheduler
-Scheduler is a class schedule android-based application. Class schedule application is the key to a well-managed, organized classroom. Class schedule permit students
+Scheduler is a class schedule android-based application for varendra university. Class schedule application is the key to a well-managed, organized classroom. Class schedule permit students
 
 to rapidly achieve everyday responsibilities that are obligatory of together the teacher and students. Here
-also have a class cancel option for teacher if they want and they can confirm that the class has been canceled
-by notifying each student of the course. Also have option for identify overlap class, add extra class option,
-search empty class room. Finally, our project may be used as a model for the entire department. It describes
-how admin, teachers and students understand the system and its functionality. However, it supports any
-designer and developer to contribution in software development lifecycle (SDLC) processes. Now I am using
-the agile model to complete my project.
-
+also have a class cancel option for teacher. Also have option for add extra class option,
+search empty class room. Finally, our project may be used as a model for the entire department. 
 In that project we are developing an android-based application to provide up-to-date daily class time,
 identify overlap class, add extra class option, search empty class room information to the user’s needs and
 user will collect information.
