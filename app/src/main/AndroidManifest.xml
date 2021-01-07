@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.im.scheduler">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ThankYouActivityTeacher"/>
+        <activity android:name=".AdminActivity.AdminLogIn" />
+        <activity android:name=".AdminActivity.AdminRoomAddActivity" />
+        <activity android:name=".AdminActivity.teacherInformationForAdminPanel" />
+        <activity android:name=".studentDeshboard" />
+        <activity android:name=".AdminActivity.AdminAssignmentOrExam" />
+        <activity android:name=".AdminActivity.AdminHomeActivity" />
+        <activity android:name=".AdminActivity.AdminDeshboard" />
+        <activity android:name=".ThankYouSignUpActivity" />
+        <activity android:name=".successEmailActivity" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".teacherDeshboardActivity" />
+        <activity android:name=".TeacherRegistration" />
+        <activity android:name=".studentRegistration" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2552594373987711~3579250809"/>
+    </application>
+
+</manifest>
