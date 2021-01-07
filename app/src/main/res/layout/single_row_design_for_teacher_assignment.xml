@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/assignmentRecViewFild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/assignmentCourseFild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:hint="Title Fild"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/assignmentSemesterFild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assignmentTimeFild2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/assignmentz2"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/assignmentSectionFild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assignmentTimeFild2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/textView14"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/assignmentTimeFild2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assignmentCourseFild"
+            android:layout_alignStart="@+id/assignmentCourseFild"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:hint="Time Fild"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assignmentTimeFild2"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/assignmentSemesterFild"
+            android:text="Section: "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/assignmentz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/assignmentTimeFild2"
+            android:layout_alignStart="@+id/assignmentTimeFild2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Semester: "
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/editButtonForAssignment"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_baseline_edit_24" />
+
+        <Button
+            android:id="@+id/deleteButtonForAssignment1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/editButtonForAssignment"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_baseline_delete_24" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

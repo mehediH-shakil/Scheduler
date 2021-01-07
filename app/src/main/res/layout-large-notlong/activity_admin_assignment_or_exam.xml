@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity.AdminAssignmentOrExam">
+
+    <Button
+        android:id="@+id/adminAssigBackBtn"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adminExamTitleFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/adminExamTeacherNameFild2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/adminExamTeacherNameFild2"
+        app:layout_constraintTop_toBottomOf="@+id/adminExamTeacherNameFild" />
+
+    <EditText
+        android:id="@+id/adminExamTeacherNameFild2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Teacher Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/adminExamTeacherNameFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Teacher's E-mail"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/adminExamTeacherNameFild2"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/adminExamTeacherNameFild2"
+        app:layout_constraintTop_toBottomOf="@+id/adminExamTeacherNameFild2" />
+
+    <EditText
+        android:id="@+id/adminExamTimeFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/adminExamTitleFild"
+        app:layout_constraintStart_toStartOf="@+id/adminExamTitleFild"
+        app:layout_constraintTop_toBottomOf="@+id/adminExamTitleFild" />
+
+    <EditText
+        android:id="@+id/adminExamSemesterFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Semester"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/adminExamTimeFild"
+        app:layout_constraintStart_toStartOf="@+id/adminExamTimeFild"
+        app:layout_constraintTop_toBottomOf="@+id/adminExamTimeFild" />
+
+    <EditText
+        android:id="@+id/AdminExamSectionFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Section"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/adminExamSemesterFild"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/adminExamSemesterFild"
+        app:layout_constraintTop_toBottomOf="@+id/adminExamSemesterFild" />
+
+    <Button
+        android:id="@+id/adminExamSaveBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/input_duttom"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="@+id/AdminExamSectionFild"
+        app:layout_constraintStart_toStartOf="@+id/AdminExamSectionFild"
+        app:layout_constraintTop_toBottomOf="@+id/AdminExamSectionFild" />
+</androidx.constraintlayout.widget.ConstraintLayout>

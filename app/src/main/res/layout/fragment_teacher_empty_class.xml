@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TeacherEmptyClassFragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherFragment.TeacherEmptyClassFragment">
+
+    <SearchView
+        android:id="@+id/search_barForTeacherEmptyRoom"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/input_boxcolor" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/teacherEmptyRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp" />
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentClassScheduleFragment">
+
+    <fragment
+        android:id="@+id/studentClassScheduleFragment"
+        android:name="com.im.scheduler.StudentFragment.StudentClassScheduleFragment"
+        android:label="Class Schedule"
+        tools:layout="@layout/activity_student_class_schedule_fragment" />
+    <fragment
+        android:id="@+id/studentAssignmentFragment"
+        android:name="com.im.scheduler.StudentFragment.studentAssignmentFragment"
+        android:label="Assignment/Exam"
+        tools:layout="@layout/activity_student_assignment_fragment" />
+    <fragment
+        android:id="@+id/studentEmptyClassFragment"
+        android:name="com.im.scheduler.StudentFragment.studentEmptyClassFragment"
+        android:label="Empty Class"
+        tools:layout="@layout/activity_student_empty_class_fragment" />
+    <fragment
+        android:id="@+id/studentTeacherInformationFragment"
+        android:name="com.im.scheduler.StudentFragment.studentTeacherInformationFragment"
+        android:label="Course Teacher's"
+        tools:layout="@layout/activity_student_teacher_information_fragment" />
+</navigation>

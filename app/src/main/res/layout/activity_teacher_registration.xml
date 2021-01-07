@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABE4BA"
+    tools:context=".TeacherRegistration">
+
+    <EditText
+        android:id="@+id/editNameTeacher"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutTeacher"
+        tools:ignore="Autofill,UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/editPhoneTeacher"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editEmailTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/editEmailTeacher"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editPasswordTeacher"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/editPhoneTeacher"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/editPhoneTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/editPhoneTeacher"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/editPasswordTeacher2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/editPasswordTeacher"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editPasswordTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/editPasswordTeacher"
+        tools:ignore="Autofill,RtlSymmetry" />
+
+
+    <TextView
+        android:id="@+id/textTeacherSignUp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#008BC34A"
+        android:forceDarkAllowed="false"
+        android:gravity="center"
+        android:text="@string/teacher_sign_up"
+        android:textColor="#FCFCFE"
+        android:textColorLink="#FEFEFE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/textAboutTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center|top"
+        android:text="@string/creat_an_account_to_get_all_features"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTeacherSignUp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editEmailTeacher"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:gravity="center_vertical"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/editNameTeacher"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editNameTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/editNameTeacher"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/signupbtnTeacher"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_duttom"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/TeacherDepartmentSpinner"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/TeacherDepartmentSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/TeacherDepartmentSpinner"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <TextView
+        android:id="@+id/textView3Teacher"
+        android:layout_width="258dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/already_have_an_account"
+        android:textColor="#F4FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupbtnTeacher" />
+
+    <Spinner
+        android:id="@+id/designationSpinner"
+        android:layout_width="196dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        app:layout_constraintStart_toStartOf="@+id/editPasswordTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/editPasswordTeacher2"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/TeacherDepartmentSpinner"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        app:layout_constraintStart_toStartOf="@+id/designationSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/designationSpinner" />
+
+    <Spinner
+        android:id="@+id/genSpinner"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        app:layout_constraintEnd_toEndOf="@+id/editPasswordTeacher"
+        app:layout_constraintStart_toEndOf="@+id/designationSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/editPasswordTeacher2" />
+
+    <TextView
+        android:id="@+id/TeacherLogInBtn"
+        android:layout_width="84dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="@string/log_in"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3Teacher"
+        app:layout_constraintTop_toBottomOf="@+id/signupbtnTeacher" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

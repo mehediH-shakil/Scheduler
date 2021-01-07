@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TeacherAssignmentFragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherFragment.TeacherAssignmentFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/examRecyclerViewForTeacher"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

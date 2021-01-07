@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/classScheduleForStudent"
+        android:icon="@drawable/class_schedule_logo"
+        android:title="Class Schedule"/>
+    <item
+        android:id="@+id/assignmentOrExamForStudent"
+        android:icon="@drawable/assignment_exam_logo"
+        android:title="Assignment/Exam"/>
+    <item
+        android:id="@+id/emptyClassForStudent"
+        android:icon="@drawable/empty_room_logo"
+        android:title="Empty Class Room"/>
+    <item
+        android:id="@+id/teacherInformationForStudent"
+        android:icon="@drawable/teacher_information_logo"
+        android:title="Teacher's"/>
+</menu>

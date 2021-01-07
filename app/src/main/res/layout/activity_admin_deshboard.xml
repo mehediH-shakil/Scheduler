@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity.AdminDeshboard">
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Course Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/g"
+        app:layout_constraintStart_toStartOf="@+id/g"
+        app:layout_constraintTop_toBottomOf="@+id/g2" />
+
+    <EditText
+        android:id="@+id/g"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Teacher Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/g2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Teacher's E-mail"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/g"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/g"
+        app:layout_constraintTop_toBottomOf="@+id/g" />
+
+    <Spinner
+        android:id="@+id/b"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Day"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintStart_toStartOf="@+id/a"
+        app:layout_constraintTop_toBottomOf="@+id/a" />
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Start Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/b"
+        app:layout_constraintTop_toBottomOf="@+id/b" />
+
+    <EditText
+        android:id="@+id/d"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="End Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/c"
+        app:layout_constraintStart_toStartOf="@+id/c"
+        app:layout_constraintTop_toBottomOf="@+id/c" />
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Room No"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/d"
+        app:layout_constraintStart_toStartOf="@+id/d"
+        app:layout_constraintTop_toBottomOf="@+id/d" />
+
+    <EditText
+        android:id="@+id/f"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Semester"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintStart_toStartOf="@+id/d"
+        app:layout_constraintTop_toBottomOf="@+id/e" />
+
+    <EditText
+        android:id="@+id/f2"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Section"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/e"
+        app:layout_constraintStart_toEndOf="@+id/f"
+        app:layout_constraintTop_toBottomOf="@+id/e" />
+
+    <Button
+        android:id="@+id/AdimBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_duttom"
+        android:text="SAVE"
+        app:layout_constraintBottom_toTopOf="@+id/adView13"
+        app:layout_constraintEnd_toEndOf="@+id/f2"
+        app:layout_constraintStart_toStartOf="@+id/f"
+        app:layout_constraintTop_toBottomOf="@+id/f" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-2552594373987711/3579250809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>

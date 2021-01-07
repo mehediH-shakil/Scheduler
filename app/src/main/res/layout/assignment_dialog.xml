@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/updateExamTitleFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/updateExamTimeFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/updateExamTitleFild"
+        app:layout_constraintStart_toStartOf="@+id/updateExamTitleFild"
+        app:layout_constraintTop_toBottomOf="@+id/updateExamTitleFild" />
+
+    <EditText
+        android:id="@+id/updateExamSemesterFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Semester"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/updateExamTimeFild"
+        app:layout_constraintStart_toStartOf="@+id/updateExamTimeFild"
+        app:layout_constraintTop_toBottomOf="@+id/updateExamTimeFild" />
+
+    <EditText
+        android:id="@+id/updateExamSectionFild"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Section"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/updateExamSemesterFild"
+        app:layout_constraintStart_toStartOf="@+id/updateExamSemesterFild"
+        app:layout_constraintTop_toBottomOf="@+id/updateExamSemesterFild" />
+
+    <Button
+        android:id="@+id/updateExamSaveBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_duttom"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/updateExamSectionFild"
+        app:layout_constraintStart_toStartOf="@+id/updateExamSectionFild"
+        app:layout_constraintTop_toBottomOf="@+id/updateExamSectionFild" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Assignment"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

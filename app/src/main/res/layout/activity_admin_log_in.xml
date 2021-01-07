@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABE4BA"
+    tools:context=".AdminActivity.AdminLogIn">
+
+
+    <EditText
+        android:id="@+id/AdminEmailLogbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/AdminPasswordLog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AdminEmailLogbtn"
+        android:layout_alignStart="@+id/AdminEmailLogbtn"
+        android:layout_alignLeft="@+id/AdminEmailLogbtn"
+        android:layout_alignEnd="@+id/AdminEmailLogbtn"
+        android:layout_alignRight="@+id/AdminEmailLogbtn"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="@string/passowrd"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/AdminEmailLogbtn"
+        app:layout_constraintStart_toStartOf="@+id/AdminEmailLogbtn"
+        app:layout_constraintTop_toBottomOf="@+id/AdminEmailLogbtn"
+        tools:ignore="Autofill,MissingConstraints" />
+
+    <Button
+        android:id="@+id/AdminLoginbtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/AdminPasswordLog"
+        android:layout_alignStart="@+id/AdminPasswordLog"
+        android:layout_alignEnd="@+id/AdminPasswordLog"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/input_duttom"
+        android:gravity="center"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/AdminPasswordLog"
+        app:layout_constraintStart_toStartOf="@+id/AdminPasswordLog"
+        app:layout_constraintTop_toBottomOf="@+id/AdminPasswordLog"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/AdminEmailLogbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-2552594373987711/3579250809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

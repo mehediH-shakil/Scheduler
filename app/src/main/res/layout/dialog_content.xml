@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editCourseUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Course Name"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp" />
+
+    <EditText
+        android:id="@+id/editDayUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editCourseUpdate"
+        android:layout_alignStart="@+id/editCourseUpdate"
+        android:layout_alignEnd="@+id/editCourseUpdate"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Day"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp" />
+
+    <EditText
+        android:id="@+id/editStartTimeUpdate"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editDayUpdate"
+        android:layout_alignStart="@+id/editDayUpdate"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Start Time"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp" />
+
+    <EditText
+        android:id="@+id/editEndTimeUpdate"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editDayUpdate"
+        android:layout_alignEnd="@+id/editDayUpdate"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/editStartTimeUpdate"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="End Time"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp" />
+
+    <EditText
+        android:id="@+id/editRoomUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editStartTimeUpdate"
+        android:layout_alignStart="@+id/editStartTimeUpdate"
+        android:layout_alignEnd="@+id/editEndTimeUpdate"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Room"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editRoomUpdate"
+        android:layout_alignStart="@+id/editRoomUpdate"
+        android:layout_alignEnd="@+id/editRoomUpdate"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_duttom"
+        android:text="Update" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editDayUpdate"
+        android:layout_alignEnd="@+id/editDayUpdate"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Update Class Schedule"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

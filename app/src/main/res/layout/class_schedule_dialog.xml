@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Spinner
+        android:id="@+id/bteacherUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Day"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ateacherUpdate" />
+
+    <EditText
+        android:id="@+id/ateacherUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Course Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cteacherUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Start Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bteacherUpdate" />
+
+    <EditText
+        android:id="@+id/dteacherUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="End Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cteacherUpdate" />
+
+    <EditText
+        android:id="@+id/eteacherUpdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Room No"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dteacherUpdate" />
+
+    <EditText
+        android:id="@+id/fteacherUpdate"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Semester"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintStart_toStartOf="@+id/dteacherUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/eteacherUpdate" />
+
+    <EditText
+        android:id="@+id/f2teacherUpdate"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_boxcolor"
+        android:ems="10"
+        android:hint="Section"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/eteacherUpdate"
+        app:layout_constraintStart_toEndOf="@+id/fteacherUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/eteacherUpdate" />
+
+    <Button
+        android:id="@+id/saveBtnteacherUpdate"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_duttom"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/f2teacherUpdate"
+        app:layout_constraintStart_toStartOf="@+id/fteacherUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/fteacherUpdate" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Class Schedule"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ateacherUpdate"
+        app:layout_constraintEnd_toEndOf="@+id/bteacherUpdate"
+        app:layout_constraintStart_toStartOf="@+id/bteacherUpdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

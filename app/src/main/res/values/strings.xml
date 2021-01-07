@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Scheduler</string>
+    <string name="please_fill_out_the_form_below_to_get_started" tools:ignore="ExtraTranslation">Please fill out the form below to get started</string>
+    <string name="scheduler">Scheduler</string>
+    <string name="login_here">Login here</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="creat_an_account_to_get_all_features">Create an account to get all features</string>
+    <string name="student_sign_up">Student Sign Up</string>
+    <string name="department">Department</string>
+    <string name="designation">Designation</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="teacher_sign_up">Teacher Sign Up</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="choose_account_type">Choose Account Type</string>
+    <string name="email">Email</string>
+    <string name="passowrd">Passowrd</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log in</string>
+    <string name="no_account">No Account?</string>
+    <string name="student_id">Student ID</string>
+    <string name="semester">Semester</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update">Update</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="course_name">Course Name</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="teacher1">Teacher:</string>
+    <string name="extraText1">, (</string>
+    <string name="extraText2">-</string>
+    <string name="extraText3">)</string>
+    <string name="room_no">Room No</string>
+    <string name="room_no1">Room No:</string>
+    <string name="profile_update_panel">Profile Update Panel</string>
+    <string name="wrong_selection">Wrong selection!</string>
+    <string name="close">close</string>
+    <string name="log_out">Log out</string>
+    <string name="todo">TODO</string>
+    <string name="no_of_exam">No. of Exam</string>
+    <string name="no_of_assignment">No. of Assignment</string>
+    <string name="no_of_class">No. of Class</string>
+    <string name="today_s_activity">Today\'s Activity</string>
+    <string name="_0">0</string>
+    <string name="designation_">Designation:</string>
+    <string name="thank_you_for_sign_up">Thank you for Sign Up!</string>
+    <string name="please_check_email_for_verification">Please check Email for verification!</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="department_name">Department Name:</string>
+
+</resources>
